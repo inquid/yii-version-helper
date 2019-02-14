@@ -1,0 +1,21 @@
+{
+    "name": "inquid/yii-version-helper",
+    "description": "Inquid versioning helper for Yii, manage your project version",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","Version","Git","Helper"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "INQUID SAS DE CV",
+            "email": "contact@inquid.co"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "inquid\\versionhelper\\": "src"
+        }
+    }
+}
